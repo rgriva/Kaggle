@@ -1,0 +1,16 @@
+---- What's The Issue? ----
+What each file means?
+
+* train_sample.csv: it's a 100,000 lines csv from original data
+
+* train_sample_reduced.csv: it's a 100,000 lines csv from original data in which we deleted information about the year and the month of click_time since they were the
+same across the observations.
+
+* train_sample_timed.csv: the train_sample.csv was treated and the click_time column was split into day, hour, minute and second.
+
+* train_reduced.csv: it is the original full training data in which we deleted information about the year and the month of click_time since they were the
+same across the observations.
+
+* timing-data.ipynb: It's the notebook with code to split click_time data
+
+* timing-data.py: same as timing-data.ipynb but in a python script form
