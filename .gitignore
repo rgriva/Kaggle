@@ -10,6 +10,9 @@ dados_kaggle/
 10_train_timed.csv
 10_train_timed.csv.zip
 
+# Raul
+dados/
+
 # C extensions
 *.so
 
