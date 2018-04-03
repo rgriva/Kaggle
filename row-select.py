@@ -29,3 +29,5 @@ gc.collect()
 
 full_data = pd.read_csv('/home/raul.guarini/mmd/train_reduced.csv',
                         dtype=dtypes, usecols=cols, skiprows=skip)
+
+full_data.to_csv('10_train_timed.csv')
