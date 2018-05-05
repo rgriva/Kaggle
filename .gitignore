@@ -5,6 +5,7 @@ __pycache__/
 
 # Alessandro
 dados_kaggle/
+*.csv
 
 # Ignorando dado tratado de treinamento, nunca eh modificado mas é grande
 10_train_timed.csv
